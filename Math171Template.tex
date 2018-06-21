@@ -1,0 +1,106 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{parskip}
+
+\newif\ifclearpage
+
+\newcommand{\name}{}
+\newcommand{\class}{Math 171, Spring 2017}
+\newcommand{\assignment}{Problem Set 1}
+\newcommand{\duedate}{Due Friday, January 19}
+
+\clearpagetrue
+
+\newcommand{\problem}[1]{\section*{#1}}
+\newcommand{\solution}{\hrulefill}
+\newcommand{\maybeclearpage}{\ifclearpage\clearpage\fi}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\geometry{margin=1in}
+
+\fancypagestyle{primary}{
+  \fancyhf{}
+  \lhead{\name}
+  \chead{\assignment}
+  \rhead{\class}
+  \lfoot{\duedate}
+  \rfoot{\thepage{} of \pageref{LastPage}}}
+
+\pagestyle{primary}
+
+\setlist[enumerate]{label=(\alph*)}
+
+\begin{document}
+
+\problem{Shahriari Problem 1.1.1}
+
+Determine the probability that a photon is detected at the first
+minimum of a six-slit grating if the bottom two slits are closed.
+Assume the magnitude of the probability amplitude due to each slit is
+$r$. \emph{Suggestion:} Start by showing how the complex probability
+amplitudes from each slit add up to zero at the first minimum.
+
+\solution
+
+
+
+\maybeclearpage
+\problem{Shahriari Problem 1.1.5}
+
+Use the principle of least time to derive Snell's law, namely, $n_1
+\sin \theta_1 = n_2 \sin \theta_2$ for light being refracted as it
+travels from a medium with index of refraction $n_1$ into a medium
+with index of refraction $n_2$. \emph{Suggestion:} Follow a procedure
+similar to the one given in Example~1.11. Locate the source S in
+medium 1 and the point P in medium 2.
+
+\solution
+
+
+
+\maybeclearpage
+\problem{Shahriari Problem 1.1.6}
+
+Use the principle of least time to derive Snell's law, namely, $n_1
+\sin \theta_1 = n_2 \sin \theta_2$ for light being refracted as it
+travels from a medium with index of refraction $n_1$ into a medium
+with index of refraction $n_2$. \emph{Suggestion:} Follow a procedure
+similar to the one given in Example~1.11. Locate the source S in
+medium 1 and the point P in medium 2.
+
+\solution
+
+
+\maybeclearpage
+\problem{Shahriari Problem 1.2.1}
+
+Use the principle of least time to derive Snell's law, namely, $n_1
+\sin \theta_1 = n_2 \sin \theta_2$ for light being refracted as it
+travels from a medium with index of refraction $n_1$ into a medium
+with index of refraction $n_2$. \emph{Suggestion:} Follow a procedure
+similar to the one given in Example~1.11. Locate the source S in
+medium 1 and the point P in medium 2.
+
+\solution
+
+
+\maybeclearpage
+\problem{Shahriari Problem 1.2.11}
+
+Use the principle of least time to derive Snell's law, namely, $n_1
+\sin \theta_1 = n_2 \sin \theta_2$ for light being refracted as it
+travels from a medium with index of refraction $n_1$ into a medium
+with index of refraction $n_2$. \emph{Suggestion:} Follow a procedure
+similar to the one given in Example~1.11. Locate the source S in
+medium 1 and the point P in medium 2.
+
+\solution
+
+\end{document}

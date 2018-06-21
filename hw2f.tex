@@ -1,0 +1,89 @@
+% HMC Math dept HW template example
+% v0.04 by Eric J. Malm, 10 Mar 2005
+\documentclass[12pt,letterpaper,boxed]{hmcpset}
+
+% set 1-inch margins in the document
+\usepackage[margin=1in]{geometry}
+
+% include this if you want to import graphics files with /includegraphics
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+% info for header block in upper right hand corner
+\name{Daniel Bashir}
+\class{Math 171}
+\assignment{Homework 2f}
+\duedate{01/26/2018}
+
+\begin{document}
+
+\problemlist{1.3.15, 1.4.4, 1.4.11, 1.5.6, 2.1.2}
+
+\begin{problem}[1.3.15]
+Let $ p $ be a prime, and $ G = (\mathbb{Z}/p\mathbb{Z})^{\times} $.
+\begin{itemize}
+  \item[(\textit{a})] Show that $ p-1 $ is its own inverse in $ G $.
+  
+  \item[(\textit{b})] Show that $ 1 $ and $ p-1 $ are the only elements of $ G $ that are their own inverses. 
+  
+  \item[(\textit{c})] (Wilson's Theorem.) Show that $ (p-1)! \equiv (p-1) $ mod $ p \equiv -1 $ mod $ p $.
+\end{itemize}
+\end{problem}
+
+\begin{solution}
+
+\end{solution}
+
+\clearpage
+
+\begin{problem}[1.4.4]
+How many elements does GL(2,3) have? Justify your answer with an appeal to Theorem 1.64. Can you extend your argument to GL(2,$p$) where $p$ is an arbitrary prime?
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+\clearpage
+
+\begin{problem}[1.4.11]
+Define $$ \mathbb{Q}[\sqrt{3}] = \{a + b\sqrt{3} \vert a,b \in \mathbb{Q} \}.$$ Is $\mathbb{Q}[\sqrt{3}]$ a field? (The two operations are the usual addition and multiplication of numbers.)
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+\clearpage
+
+
+\begin{problem}[1.5.6]
+$ \textbf{The center of} $ GL($n$,$F$). Let $F$ be a field (the rationals, the reals, the complexes, or $ \mathbb{Z}/p\mathbb{Z} $). Show that $ \textbf{Z} $(GL($n$,$F$), the center of the general linear group, is $ \{\lambda I_n \vert \lambda \in F\} $, the set of matrices that are constant multiples of the identity matrix. You may find the following steps helpful: \\
+$\textit{Step 1}$: For $ a \leq i, j \leq n $, let $E_{i,j}$ be the $n \times n$ matrix that has a one in the ($i$,$j$) entry and zeros elsewhere. Show that $B_{i,j} = I_n + E_{i,j}$ is an elementary matrix and hence an element of GL($n$,$F$). \\
+$\textit{Step 2}$: Assume that $ A \in \textbf{A}$(GL($n$,$F$)). Show that $AB_{i,j} = B_{i,j}A$ implies that $AE_{i,j} = E_{i,j}A$. \\
+$\textit{Step 3}$: If $ A \in \textbf{Z}$(GL($n$,$F$)), by comparing $ AE_{i,j} $ with $ E_{i,j}A $, conclude that $ A = \lambda I_n $ for some $ \lambda \in F $.
+\end{problem}
+
+\begin{solution}
+\end{solution}
+
+\clearpage
+
+\begin{problem}[2.1.2]
+Let $\theta$ be a real number and define $$ R_\theta = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix}. $$
+\begin{itemize}
+  \item[(\textit{a})] $R_\theta$ is called a rotation matrix. Can you explain why?
+  
+  \item[(\textit{b})] Show $$ R_\theta R_\mu = R_?, $$ $$ R_\theta^{-1} = R_?. $$
+  
+  \item[(\textit{c})] Let $$ G = \{R_\theta \vert \theta \in \mathbb{R} \}.$$ Show that $ G $ is a group under matrix multiplication. 
+\end{itemize}
+\end{problem}
+\begin{solution}
+\end{solution}
+\end{document}
